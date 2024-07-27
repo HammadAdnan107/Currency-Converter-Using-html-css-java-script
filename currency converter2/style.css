@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,300&family=Poppins:wght@400;600&display=swap');
+
+/* Reset some default browser styling */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* General body styling */
+body {
+    font-family: 'Amiri', serif; /* Main font */
+    background-color: #f8f9fa; /* Light background color */
+    color: #333; /* Dark text color for better readability */
+}
+nav {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+    display: flex;
+    font-size: 20px;
+    background-color: rgb(224, 209, 245);
+    padding: 23px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #020312;
+    transition: all;
+    transition-duration: 500ms;
+    float: right;
+    padding-right: 50px;
+}
+
+nav li a:hover {
+    text-decoration: none;
+    color: rgb(103, 101, 235);
+}
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul {
+    display: flex;
+}
+
+footer {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+} 
+
+/* Centered heading styling */
+.heading {
+    margin: 20px 0;
+    font-family: 'Lobster', cursive; /* Heading font */
+    color: #007bff; /* Primary color for headings */
+}
+
+/* Container styling */
+.container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #faf8f8; /* White background for the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Main section styling */
+.main {
+    padding: 20px;
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 15px; /* Space between form elements */
+}
+
+/* Input field styling */
+.form-control {
+    border-radius: 5px; /* Rounded corners for input fields */
+    border: 1px solid #b1b0b0; /* Light gray border */
+    padding: 10px; /* Padding inside input fields */
+    font-size: 16px; /* Larger font size for readability */
+    height: auto; /* Adjust height based on content */
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+/* Input group styling */
+.input-group {
+    margin-bottom: 15px; /* Space between input groups */
+}
+
+/* Select dropdown styling */
+.form-control {
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding and border in the element's width */
+}
+
+/* Prevent text wrapping inside select options */
+.form-control option {
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+/* Button styling */
+.btn {
+    border-radius: 5px; /* Rounded corners for buttons */
+    padding: 10px 20px; /* Padding inside buttons */
+    font-size: 16px; /* Font size for buttons */
+}
+
+/* Primary button styling */
+.btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border-color: #007bff; /* Border color */
+    color: #ffffff; /* Text color */
+}
+
+/* Reset button styling */
+.btn-primary.reset {
+    background-color: #777c81; /* Secondary button color for reset */
+    border-color: #96989b; /* Border color */
+}
+
+/* Text center alignment for buttons */
+.text-center {
+    text-align: center;
+}
+
+/* Styling for final converted amount display */
+#finalAmount {
+    margin-top: 20px;
+}
+
+.finalValue {
+    color: green; /* Color for final value text */
+    font-weight: bold; /* Make text bold */
+}
